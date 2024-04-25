@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h3{
+    padding: 0;
+    margin: 0;
+}
+.section-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 450px;
+    background-color: black;
+    border-radius: 10px;
+}
+.calculator{
+    border: 3px solid white;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 35px;
+}
+#inputbox{
+    color: white;
+    width: 150px;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    background-color: black;
+    border: none;
+}
+.operator{
+    border-radius: 40px;
+    border: none;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    box-shadow: 1px 2px 5px white;
+    background-color: black;
+    color: rgb(142, 228, 13);
+}
+.operands{
+    border-radius: 40px;
+    border: none;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    box-shadow: 1px 2px 5px white;
+    background-color: black;
+    color: white;
+}
+.equal{
+    border-radius: 40px;
+    border: none;
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    box-shadow: 1px 2px 5px white;
+    background-color: blue;
+}
